@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<link rel="stylesheet" href="home.css">
+<body>
+    <header>
+        <nav>
+            <div id="buttonContainer">
+                <button id="menuButton" onclick="toggleMenuButton()">
+                    <div class="menu-icon">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </button>
+                <button id="colorButton" onclick="toggledarkMode()">Dark</button>
+            </div>
+            <ul id="navLinks">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">Profile</a></li>
+                <li><a href="contact.html">Your Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="websiteTitle">
+            <h1>Game Hub</h1>
+        </div>
+        <p>This is a website to see current and old games with reviews</p>
+       
+        <div id="topGames">
+            <h2>Top Games</h2>
+        </div>
+        <p>Check out the top games</p>
+    </main>
+
+    <aside>
+        <div id="latestNews">
+            <h2>Latest News</h2>
+        </div>
+        <p>Check out the latest games</p>
+    </aside>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>
